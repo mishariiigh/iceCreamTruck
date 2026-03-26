@@ -17,7 +17,7 @@ export function Footer() {
         </div>
         <div>
           <p className="font-semibold text-zinc-900">Contact</p>
-          <p className="text-sm text-zinc-600 mt-2">ottawacooltreat@gmail.com</p>
+          <p className="text-sm text-zinc-600 mt-2">ottawacooltreats@gmail.com</p>
           <p className="text-xs text-zinc-500 mt-4">© {new Date().getFullYear()} Ottawa Cool Treat. All rights reserved.</p>
         </div>
       </div>

@@ -20,7 +20,7 @@ export async function POST(req: Request) {
 
   // Define the sending and receiving email address
   // This must match the Gmail account that generated the App Password.
-  const senderEmail = 'ottawacooltreat@gmail.com'; 
+  const senderEmail = 'ottawacooltreats@gmail.com'; 
 
   try {
     // Nodemailer transporter configuration
@@ -29,7 +29,7 @@ export async function POST(req: Request) {
       service: 'gmail', 
       auth: {
         user: senderEmail, 
-        pass: process.env.EMAIL_PASSWORD, // The App Password: "oegnyviwewvidbis"
+        pass: process.env.EMAIL_PASSWORD, // The App Password: "dgkquswzcujfamji"
       },
     });
 
